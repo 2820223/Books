@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ee"
+    app:startDestination="@id/waitFragment">
+
+    <fragment
+        android:id="@+id/waitFragment"
+        android:name="com.example.books.ui.theme.WaitFragment"
+        android:label="fragment_wait"
+        tools:layout="@layout/fragment_wait" />
+</navigation>
